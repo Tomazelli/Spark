@@ -80,6 +80,6 @@ print(acuracia)
 
 
 
-################# Save the pipeline model
+################# 
 #preciso colocar o endereço da onde vou salvar o modelo
 model.save("path")
