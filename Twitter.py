@@ -1,6 +1,6 @@
 #!/usr/bin/python
 import tweepy
-import csv #Import csv
+import csv #' csv
 import json
 import re
 import csv
@@ -40,7 +40,7 @@ search_words = ["i want to die","i dont want to live anymore","i will kill mysel
 numberOfTweets = 300
 for x in search_words:
     print(x)
-    for tweet in tweepy.Cursor(api.search,
+    for tweet in tweepy.Cursor(api.search_tweets,
                                q =  x,
                                #geocode="-22.9110137,-43.2093727,300km",
 
